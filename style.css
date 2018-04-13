@@ -1,0 +1,34 @@
+
+body{
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+
+  .text-white {
+	text-align: center;
+	margin-top: 70vh;
+	margin-left: 100px;
+	color: white;
+	text-transform: uppercase;
+	
+}
+
+.btn{
+	text-transform: uppercase;
+	padding: 5px 15px;
+	transition: 1s;
+	background-color: orange;
+	text-size:2rem;
+}
+
+.btn {
+	border-radius: 30px;
+	margin-left: 50%;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+	background-color: rgba(0,0,255,1.8);
+}
